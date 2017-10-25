@@ -6,10 +6,10 @@ class Pokemon
 
   def initialize (args)
     binding.pry
-    @id = id
-    @name = name
-    @type = type
-    @db = db
+    @id = args[:id]
+    @name = args[:name]
+    @type = args[:type]
+    @db = args[:db]
     @@all << self
   end
 
