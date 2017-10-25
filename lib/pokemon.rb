@@ -21,5 +21,6 @@ class Pokemon
     pokemon_id = find_pokemon[0][0]
     pokemon_name = find_pokemon[0][1]
     pokemon_type = find_pokemon[0][2]
+    Pokemon.new(id: pokemon_id, name: pokemon_name, type: pokemon_type, db: db)
   end
 end
