@@ -5,7 +5,7 @@ class Pokemon
   @@all = []
 
   def initialize (args)
-    binding.pry
+    #binding.pry
     @id = args[:id]
     @name = args[:name]
     @type = args[:type]
