@@ -1,8 +1,6 @@
 class Pokemon
   #build methods
-  attr_accessor :id, :name, :type, :db
-
-  @@all = []
+  attr_accessor :id, :name, :type, :db, :hp
 
   def initialize (args)
     #binding.pry
@@ -11,7 +9,7 @@ class Pokemon
     @type = args[:type]
     @db = args[:db]
     @hp = args [:hp]
-    @@all << self
+
   end
 
   def self.save(name, type, db)
