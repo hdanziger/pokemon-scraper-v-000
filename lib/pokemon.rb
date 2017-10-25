@@ -9,13 +9,11 @@ class Pokemon
     @name = name
     @type = type
     @db = db
-    @@all << self 
+    @@all << self
   end
 
   def self.save(name, type, db)
     db.execute("INSERT INTO pokemon (name, type, db) VALUES (?, ?, ?)", name, breed, age)
-  end
-
   end
 
   def find
