@@ -1,6 +1,6 @@
 class Pokemon
   #build methods
-  attr_accessor :id, :name, :type, :db
+  #attr_accessor :id, :name, :type, :db
 
   def initialize (name)
     @id = id
@@ -9,7 +9,8 @@ class Pokemon
     @db = db
   end
 
-  def save
+  def self.save(name, type, db)
+    
   end
 
   def find
