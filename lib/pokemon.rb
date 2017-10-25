@@ -1,6 +1,6 @@
 class Pokemon
   #build methods
-  attr_accessor :id, :name, :type, :db,
+  attr_accessor :id, :name, :type, :db
 
   def initialize (args)
     #binding.pry
