@@ -1,3 +1,6 @@
 class Pokemon
-  #build methods 
+  #build methods
+
+  def initialize
+  end
 end
