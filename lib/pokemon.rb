@@ -8,7 +8,7 @@ class Pokemon
     @name = args[:name]
     @type = args[:type]
     @db = args[:db]
-    @hp = args [:hp]
+    @hp = hp: nil
 
   end
 
